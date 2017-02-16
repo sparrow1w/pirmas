@@ -1,0 +1,41 @@
+body {
+  background-image: url("wall.jpg");
+}
+h1{
+  font-size: 12px;
+}
+.jumbotron{
+  font-family: fantasy;
+  opacity: 0.5;
+  text-align: center;
+  color: white;
+}
+.container{
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 24px;
+  font-style: italic;
+}
+.container p{
+  padding: 20px;
+}
+#right-align{
+  text-align: right;
+}
+
+#downside{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+li{
+  padding-left: 20px;
+}
+.img-thumbnail{
+  margin: 10px;
+}
