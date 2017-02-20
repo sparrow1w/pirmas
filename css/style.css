@@ -37,7 +37,7 @@ h1{
   text-align: center;
   background: #98e6e6;
   color: black;
-  padding: 5px;
+  padding: 1rem;
   position: sticky;
   bottom: 0;
 }
@@ -46,4 +46,9 @@ li{
 }
 .img-thumbnail{
   margin: 10px;
+}
+.logo{
+  padding: 5px;
+  border-style: solid;
+  border-color: #98e6e6;
 }
