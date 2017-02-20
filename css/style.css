@@ -10,6 +10,15 @@ h1{
   text-align: center;
   color: white;
 }
+.container-fluid{
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 9999;
+ width: 100%;
+ height: 50px;
+ background-color: black;
+}
 .container{
   color: black;
   margin-top: 20px;
@@ -25,13 +34,12 @@ h1{
 }
 
 #downside{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
   text-align: center;
+  background: #98e6e6;
+  color: black;
+  padding: 5px;
+  position: sticky;
+  bottom: 0;
 }
 li{
   padding-left: 20px;
