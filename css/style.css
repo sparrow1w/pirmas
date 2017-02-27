@@ -37,9 +37,10 @@ h1{
   text-align: center;
   background: #98e6e6;
   color: black;
-  padding: 1rem;
-  position: sticky;
+  padding: 3px;
+  position: fixed;;
   bottom: 0;
+  width: 100%;
 }
 li{
   padding-left: 20px;
@@ -54,4 +55,14 @@ li{
 }
 .first-slide{
   text-align: center;
+}
+.carousel-inner .item img {
+  margin: 0 auto;
+  width: 75%;
+}
+.carousel-caption{
+  font-size: 25px;
+  text-align: right;
+  top: 5px;
+  text-shadow: 5px 4px black;
 }
