@@ -15,7 +15,7 @@ body {
   margin-left: -20%;
 }
 .navbar ul{
-  float: right;
+  float: left;
 }
 .navbar-inverse .navbar-nav>li>a {
    color: white;
